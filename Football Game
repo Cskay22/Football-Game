@@ -1,0 +1,17 @@
+direction = input("Where would you like to dribble? Forward or Backward?\n").lower()
+if direction == "forward":
+  solokia = input("5 man came to pressure you, what would you like to do? Dribble or Pass.\n").lower()
+  if solokia == "pass":
+    player = input("Who would you like to pass to? Owen, Cy, or Sk\n").lower()
+    if player == "owen":
+      print("Game over. He dribbled backwards and got subbed off like a bij")
+    elif player == "cy":
+      print("Game over. He squared the ball and the opponent scored.")
+    elif player == "sk":
+      print("You win. Song Kai scored a bicycle kick from his own half to win Singapore the World Cup.")
+    else: 
+      print(f"You lose, who tf is {player}?")
+  else:
+    print("You think you who? Lost the ball and conceded and got subbed off, benched for life")
+else:
+  print("Game over, you dribble back for what, now you getting subbed out like Owen.")
